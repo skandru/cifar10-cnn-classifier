@@ -1,0 +1,34 @@
+data:
+  batch_size: 128
+  data_root: ./data
+  download: true
+  num_workers: 2
+  pin_memory: true
+  transforms:
+    brightness: 0.2
+    contrast: 0.2
+    crop_padding: 4
+    flip_prob: 0.5
+    hue: 0.1
+    rotation_degrees: 10
+    saturation: 0.2
+experiment:
+  name: cifar10_cnn_baseline
+  save_metrics: true
+  save_plots: true
+  seed: 42
+model:
+  dropout_rate: 0.3
+  num_classes: 10
+paths:
+  checkpoint_dir: ./checkpoints
+  logs_dir: ./logs
+  results_dir: ./results
+training:
+  early_stopping: false
+  gamma: 0.1
+  learning_rate: 0.001
+  num_epochs: 30
+  patience: 10
+  step_size: 15
+  weight_decay: 0.0001
