@@ -23,6 +23,9 @@ This project implements a state-of-the-art CNN architecture for classifying imag
 | **Training Accuracy** | 78.71% | 78.71% |
 | **Validation Accuracy** | 84.79% | **84.79%** |
 | **Epochs Trained** | 30 | 30 |
+<img width="1826" height="845" alt="image" src="https://github.com/user-attachments/assets/9a74ec62-bb15-49a8-b2e6-1d464a0d10ac" />
+<img width="1794" height="844" alt="image" src="https://github.com/user-attachments/assets/e9899a82-b13f-46be-941f-acb21123a486" />
+
 
 ### 📈 Training Characteristics
 - **Smooth Convergence**: Both training and validation losses decreased consistently
